@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+.inner p,
+.readMore {
+  background-color: rgba(128, 128, 128, 0.103);
+}
+
+.nature {
+  width: 93%;
+  height: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+.layout {
+  height: 500px;
+  background-color: white;
+  margin: 20px 30%;
+  border: 2px solid gray;
+  border-radius: 10px 10px 5px 10px;
+}
+
+.inner p {
+  border: 1px solid gray;
+  display: inline-block;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3px;
+  margin: 5px;
+}
+
+.inner,
+h3,
+p {
+  margin: 12px;
+}
+
+.readMore {
+  border: 1px solid gray;
+  display: inline-block;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 2% 35%;
+  color: blue;
+}
